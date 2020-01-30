@@ -1,0 +1,78 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:34:49
+gem5 executing on tetracosa.cs.ucla.edu, pid 133640
+command line: build/X86/gem5.opt --outdir 4_minor_DDR3/lfsr simple.py --CPU MinorCPU --benchmark lfsr
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7002
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='lfsr', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 56436647000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:35:25
+gem5 executing on tetracosa.cs.ucla.edu, pid 133727
+command line: build/X86/gem5.opt --outdir 4_minor_DDR3/merge simple.py --CPU MinorCPU --benchmark merge
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='merge', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 6443836000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:35:41
+gem5 executing on tetracosa.cs.ucla.edu, pid 133768
+command line: build/X86/gem5.opt --outdir 4_minor_DDR3/mm simple.py --CPU MinorCPU --benchmark mm
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='mm', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 31302694000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:36:51
+gem5 executing on tetracosa.cs.ucla.edu, pid 133948
+command line: build/X86/gem5.opt --outdir 4_minor_DDR3/sieve simple.py --CPU MinorCPU --benchmark sieve
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='sieve', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 36147123000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:38:14
+gem5 executing on tetracosa.cs.ucla.edu, pid 134133
+command line: build/X86/gem5.opt --outdir 4_minor_DDR3/spmv simple.py --CPU MinorCPU --benchmark spmv
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='spmv', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+Done simulating at tick 75426767000 because exiting with last active thread context

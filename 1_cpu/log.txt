@@ -1,0 +1,60 @@
+usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
+                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
+                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
+simple.py: error: unrecognized arguments: --cpu MinorCPU
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 10:39:16
+gem5 executing on tetracosa.cs.ucla.edu, pid 119834
+command line: build/X86/gem5.opt --outdir 1_cpu/lfsr simple.py --cpu MinorCPU --benchmark lfsr
+
+usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
+                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
+                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
+simple.py: error: unrecognized arguments: --cpu MinorCPU
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 10:39:16
+gem5 executing on tetracosa.cs.ucla.edu, pid 119835
+command line: build/X86/gem5.opt --outdir 1_cpu/merge simple.py --cpu MinorCPU --benchmark merge
+
+usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
+                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
+                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
+simple.py: error: unrecognized arguments: --cpu MinorCPU
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 10:39:16
+gem5 executing on tetracosa.cs.ucla.edu, pid 119836
+command line: build/X86/gem5.opt --outdir 1_cpu/mm simple.py --cpu MinorCPU --benchmark mm
+
+usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
+                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
+                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
+simple.py: error: unrecognized arguments: --cpu MinorCPU
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 10:39:17
+gem5 executing on tetracosa.cs.ucla.edu, pid 119837
+command line: build/X86/gem5.opt --outdir 1_cpu/sieve simple.py --cpu MinorCPU --benchmark sieve
+
+usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
+                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
+                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
+simple.py: error: unrecognized arguments: --cpu MinorCPU
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 10:39:17
+gem5 executing on tetracosa.cs.ucla.edu, pid 119838
+command line: build/X86/gem5.opt --outdir 1_cpu/spmv simple.py --cpu MinorCPU --benchmark spmv
+

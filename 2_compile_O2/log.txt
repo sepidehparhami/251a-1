@@ -1,0 +1,14 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 11:52:36
+gem5 executing on tetracosa.cs.ucla.edu, pid 136836
+command line: build/X86/gem5.opt --outdir 2_compile_O2/mm simple.py --benchmark mm
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='mm', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 7016843000 because exiting with last active thread context

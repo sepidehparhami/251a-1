@@ -1,0 +1,78 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 11:25:41
+gem5 executing on tetracosa.cs.ucla.edu, pid 132214
+command line: build/X86/gem5.opt --outdir 5_nol2/lfsr simple.py --nol2 --benchmark lfsr
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='lfsr', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=True)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 10571796000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 11:26:15
+gem5 executing on tetracosa.cs.ucla.edu, pid 132285
+command line: build/X86/gem5.opt --outdir 5_nol2/merge simple.py --nol2 --benchmark merge
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='merge', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=True)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 2463144000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 11:26:34
+gem5 executing on tetracosa.cs.ucla.edu, pid 132327
+command line: build/X86/gem5.opt --outdir 5_nol2/mm simple.py --nol2 --benchmark mm
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='mm', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=True)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 7231489000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 11:27:38
+gem5 executing on tetracosa.cs.ucla.edu, pid 132473
+command line: build/X86/gem5.opt --outdir 5_nol2/sieve simple.py --nol2 --benchmark sieve
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='sieve', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=True)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 53675494000 because exiting with last active thread context
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 29 2020 17:17:17
+gem5 started Jan 30 2020 11:29:09
+gem5 executing on tetracosa.cs.ucla.edu, pid 132719
+command line: build/X86/gem5.opt --outdir 5_nol2/spmv simple.py --nol2 --benchmark spmv
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='DerivO3CPU', benchmark='spmv', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=True)
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+Done simulating at tick 22906737000 because exiting with last active thread context
