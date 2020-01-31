@@ -1,60 +1,78 @@
-usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
-                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
-                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
-simple.py: error: unrecognized arguments: --cpu MinorCPU
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jan 29 2020 17:17:17
-gem5 started Jan 30 2020 10:39:16
-gem5 executing on tetracosa.cs.ucla.edu, pid 119834
-command line: build/X86/gem5.opt --outdir 1_cpu/lfsr simple.py --cpu MinorCPU --benchmark lfsr
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 17:08:06
+gem5 executing on tetracosa.cs.ucla.edu, pid 188910
+command line: ../gem5/build/X86/gem5.opt --outdir 1_cpu/lfsr simple.py --CPU MinorCPU --benchmark lfsr
 
-usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
-                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
-                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
-simple.py: error: unrecognized arguments: --cpu MinorCPU
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='lfsr', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 56436647000 because exiting with last active thread context
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jan 29 2020 17:17:17
-gem5 started Jan 30 2020 10:39:16
-gem5 executing on tetracosa.cs.ucla.edu, pid 119835
-command line: build/X86/gem5.opt --outdir 1_cpu/merge simple.py --cpu MinorCPU --benchmark merge
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 17:08:40
+gem5 executing on tetracosa.cs.ucla.edu, pid 188988
+command line: ../gem5/build/X86/gem5.opt --outdir 1_cpu/merge simple.py --CPU MinorCPU --benchmark merge
 
-usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
-                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
-                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
-simple.py: error: unrecognized arguments: --cpu MinorCPU
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='merge', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 6443836000 because exiting with last active thread context
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jan 29 2020 17:17:17
-gem5 started Jan 30 2020 10:39:16
-gem5 executing on tetracosa.cs.ucla.edu, pid 119836
-command line: build/X86/gem5.opt --outdir 1_cpu/mm simple.py --cpu MinorCPU --benchmark mm
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 17:08:56
+gem5 executing on tetracosa.cs.ucla.edu, pid 189018
+command line: ../gem5/build/X86/gem5.opt --outdir 1_cpu/mm simple.py --CPU MinorCPU --benchmark mm
 
-usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
-                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
-                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
-simple.py: error: unrecognized arguments: --cpu MinorCPU
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='mm', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 31302694000 because exiting with last active thread context
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jan 29 2020 17:17:17
-gem5 started Jan 30 2020 10:39:17
-gem5 executing on tetracosa.cs.ucla.edu, pid 119837
-command line: build/X86/gem5.opt --outdir 1_cpu/sieve simple.py --cpu MinorCPU --benchmark sieve
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 17:10:03
+gem5 executing on tetracosa.cs.ucla.edu, pid 189169
+command line: ../gem5/build/X86/gem5.opt --outdir 1_cpu/sieve simple.py --CPU MinorCPU --benchmark sieve
 
-usage: simple.py [-h] [--CPU {DerivO3CPU,MinorCPU}] [--frequency {1GHz,4GHz}]
-                 [--memctrl {DDR3_1600_8x8,HBM_1000_4H_1x64}] [--nol2]
-                 [--benchmark {mm,spmv,lfsr,merge,sieve}]
-simple.py: error: unrecognized arguments: --cpu MinorCPU
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='sieve', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+Done simulating at tick 36147123000 because exiting with last active thread context
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jan 29 2020 17:17:17
-gem5 started Jan 30 2020 10:39:17
-gem5 executing on tetracosa.cs.ucla.edu, pid 119838
-command line: build/X86/gem5.opt --outdir 1_cpu/spmv simple.py --cpu MinorCPU --benchmark spmv
+gem5 compiled Jan 30 2020 11:34:18
+gem5 started Jan 30 2020 17:11:25
+gem5 executing on tetracosa.cs.ucla.edu, pid 189347
+command line: ../gem5/build/X86/gem5.opt --outdir 1_cpu/spmv simple.py --CPU MinorCPU --benchmark spmv
 
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation with parameters Namespace(CPU='MinorCPU', benchmark='spmv', frequency='1GHz', memctrl='DDR3_1600_8x8', nol2=False)
+info: Entering event queue @ 0.  Starting simulation...
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+Done simulating at tick 75426767000 because exiting with last active thread context
